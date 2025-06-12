@@ -1,0 +1,45 @@
+.child{
+    border: 2px solid black;
+    padding:50px;
+    width: 600px;
+}
+
+.parent{
+    background: lightblue;
+    display: flex;
+    /* inline-flex , flex*/
+    flex-direction: row;
+    /*row , column , row-reverse, column-reverse*/
+    flex-wrap: wrap;
+    /*nowrap, wrap, wrap, wrap-reverse*/
+
+    /* flex-flow: nowrap row; */
+
+    justify-content: start;
+    /* start, end, space-between, space-evenly, space-around*/
+    height:500px;
+
+    align-items: start;
+    /* start, end, stretch, center, baseline*/
+
+    align-content: end;
+    /* start, end, stretch, center, baseline*/
+    gap:20px 50px;
+
+}
+
+.box{
+    border: 2px solid black;
+    padding: 40px;
+    background-color: blue;
+}
+
+.item{
+    display: flex;
+    height: 300px;
+}
+
+.a{flex-basis: 300px; align-self:start;order:3}
+.b{flex-grow: 1; align-self:end;order:4;}
+.c{flex-grow: 2 ; align-self: center; order:1}
+.d{align-self: stretch; order:2;}

@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    text-transform: 20px;
+}
+
+.flex{
+    display: flex;
+}
+
+.p{
+    padding:10px 0;
+}
+
+.ai{
+    align-items: center;
+}
+.jc{
+    justify-content: space-between;
+}
+
+.sb{
+    spac
+}
+.gap{
+    gap:20px;
+}
+.container{
+    width:1200px;
+    margin:auto;
+}
+
+.top{
+    background-color: black;
+    color: white;
+}
+
+.l{
+    width: 50%;
+}
+
+h1{
+    color: sandybrown;
+}
+
+.bgc{
+    background-color: burlywood;
+}

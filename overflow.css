@@ -1,0 +1,25 @@
+.box{
+    border: 1px solid black;
+    width:150px;
+    height:200px;
+    float: left;
+}
+
+/* do not forget px */
+
+.a{
+    overflow: visible;
+}
+
+.b{
+    overflow: hidden;
+
+}
+
+.c{
+    overflow:scroll;
+}
+
+.d{
+    overflow: auto;
+}
