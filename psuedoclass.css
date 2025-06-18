@@ -1,0 +1,43 @@
+p:first-child{
+    background:green;
+}
+
+p:last-child{
+    background:red;
+}
+
+p:nth-child(2), p:nth-child(4){
+    background: pink;
+}
+
+p:nth-child(odd){
+    background-color: blue;
+}
+p:nth-child(even){
+    background-color: lightblue;
+}
+
+a:visited{
+    color: aqua;
+}
+a:link{
+    color: goldenrod;
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color:blueviolet;
+}
+
+:root{
+    --primary: #d65656;
+    --size: 150px;
+}
+
+h2
+{
+    width: var(--size);
+    height: var(--size);
+    background-color: (var(--primary));
+}

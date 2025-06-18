@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .new {
+            margin: 50px;
+        }
+
+        li {
+            list-style-type: none;
+            position: relative;
+            border-bottom: 1px solid grey;
+            padding: 10px ;
+        }
+
+        li::before {
+            content: '';
+            position: absolute;
+            width: 2px;
+            height: 100%;
+            background: black;
+            left: -10px;
+        }
+
+        li::after {
+            content: '';
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            border: 1px solid black;
+            left: -13px;
+            top: 0;
+            background: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="new">
+        <ul>
+            <li>
+                <span>२४ सेकेण्ड अगाडि | समसामयिक</span>
+                <h4>स्थानीयको अवरोधले रोकियो फेवातालमा पिल्लर गाड्ने काम, ९१ वटा मात्रै गाडिए</h4>
+            </li>
+            <li>
+                <span>२४ सेकेण्ड अगाडि | समसामयिक</span>
+                <h4>स्थानीयको अवरोधले रोकियो फेवातालमा पिल्लर गाड्ने काम, ९१ वटा मात्रै गाडिए</h4>
+            </li>
+            <li>
+                <span>२४ सेकेण्ड अगाडि | समसामयिक</span>
+                <h4>स्थानीयको अवरोधले रोकियो फेवातालमा पिल्लर गाड्ने काम, ९१ वटा मात्रै गाडिए</h4>
+            </li>
+            <li>
+                <span>२४ सेकेण्ड अगाडि | समसामयिक</span>
+                <h4>स्थानीयको अवरोधले रोकियो फेवातालमा पिल्लर गाड्ने काम, ९१ वटा मात्रै गाडिए</h4>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

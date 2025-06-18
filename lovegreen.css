@@ -20,6 +20,7 @@ a{
 }
 .top{
     background-color: #3a4c3a;
+    position:relative;
 }
 
 .container{
@@ -93,6 +94,32 @@ h2{
 
 .pos{
     position: sticky;
-    top:0px;
+    top:5px;
     
 }
+
+body{
+    height:1900px;
+}
+
+.press{
+    position:relative;
+
+}
+.dropdown{
+    display: none;
+    position:absolute;
+    top: 10px;
+
+}
+
+.dropa{
+    display: none;
+    postion:absolute;
+    top:0px;
+
+}
+
+
+.press:hover .dropdown{display: block;}
+.dropdown:hover .dropa{display: block;}

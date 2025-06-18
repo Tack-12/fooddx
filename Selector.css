@@ -1,0 +1,57 @@
+/* Simple Selectors: id class tag*/
+
+#a {
+    color: red;
+}
+
+
+.a {
+    color: yellow;
+}
+
+h1 {
+    background: brown;
+}
+
+
+/* COmbination selectors */
+
+.box p {
+    color: aqua;
+}
+
+.box>p {
+    background: purple;
+}
+
+.box+p {
+    text-transform: uppercase;
+}
+
+.box~p {
+    text-decoration: underline;
+}
+
+/*Pesudo-element Selector*/
+
+.box1 p::first-letter {
+    font-size: 40px;
+}
+
+.box1 p::first-line{
+    background: lightblue;
+}
+
+.box1::marker{
+
+    color:yellow;
+}
+::placeholder{
+    color: red;
+}
+::selection {
+    background-color: gray; color: blue;
+}
+
+li::before{ content:'✓'}
+li::after { content:'✓'}
